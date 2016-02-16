@@ -1,3 +1,3 @@
-var greeter = require('./modules/greetings.js');
+import ColorPoint from './modules/colorpoint.js';
 
-window.app = greeter;
+window.cp = new ColorPoint(25, 8, 'green');
